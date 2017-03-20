@@ -1,5 +1,5 @@
-outfile = open('texto.txt', 'w') # Indicamos el valor 'w'.
-outfile.write('Fusce vitae leo purus, a tempor nisi.\n')
+outfile = open('nombrearchivo.txt', 'w') # Indicamos el valor 'w'.
+outfile.write('Linea del archivo de texto plano\n') #con salto de linea
 outfile.close()
 # Leemos el contenido para comprobar que ha sobreescrito el contenido.
 infile = open('texto.txt', 'r')
